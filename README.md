@@ -39,13 +39,13 @@ Currently includes a **Text Translator** powered by an external API and a **Rand
 ## 📸 Screenshots
 
 ### 🔍 Home Page  
-![Home Page](./home.png)
+![Home Page](./public/home.png)
 
 ### 🌍 Translator  
-![Translator](./translator.png)
+![Translator](./public/translator.png)
 
 ### 🔑 Password Generator  
-![Password Generator](./password.png)
+![Password Generator](./public/password.png)
 
 ---
 
@@ -54,3 +54,27 @@ Currently includes a **Text Translator** powered by an external API and a **Rand
 1. Clone the repository:
    ```bash
    https://github.com/KavindyaPrathapage/LanguageTranslator.git
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start development server:
+   ```bash
+   npm run dev
+4. Open your browser:
+   ```bash
+   http://localhost:5173
+
+## 🔧 Configuration
+- Translator API requires a **RapidAPI key.** 
+- Replace the placeholder key inside **App.jsx:**
+   ```bash
+   "x-rapidapi-key": "YOUR_API_KEY",
+   "x-rapidapi-host": "google-translator9.p.rapidapi.com",
+
+## 📦 Dependencies
+- react
+- react-dom
+- react-router-dom
+- axios
+- lucide-react
+- tailwindcss
